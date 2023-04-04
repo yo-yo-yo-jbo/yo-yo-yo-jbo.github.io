@@ -22,6 +22,7 @@
 [Nullcon - macOS Security Features Bypasses by Example](https://nullcon.net/webinardetail/macOS-security-features-bypasses-by-example)
 [DEFCON 30 - Free phone got me critical vulns affecting millions Android](https://www.youtube.com/watch?v=Ua_5qwcPgps)
 [BlueHat IL 2022 - Learning macOS Security by Finding Vulns](https://www.youtube.com/watch?v=jBvE0kciSx8)
+[DCGVR - The anatomy of UAC bypasses](https://www.youtube.com/watch?v=gvJ12U80q8g)
 
 # Writeups
 [Metasploit Shellcode analysis](https://github.com/yo-yo-yo-jbo/msf_shellcode_analysis)
