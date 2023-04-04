@@ -26,3 +26,12 @@
 
 # Writeups
 [Metasploit Shellcode analysis](https://github.com/yo-yo-yo-jbo/msf_shellcode_analysis)
+[TheGooniesCTF - ångstrom CTF 2021 - Oracle of Blair](https://thegoonies.github.io/2021/04/08/angstrom-ctf-2021-oracle-of-blair/)
+[TheGooniesCTF - ångstrom CTF 2021 - substitution](https://thegoonies.github.io/2021/04/07/angstromctf-2021-substitution/)
+[TheGooniesCTF - ångstrom CTF 2021 - I'm so random](https://thegoonies.github.io/2021/04/07/angstromctf-2021-im_so_random/)
+[TheGooniesCTF - UMass CTF 2021 - malware](https://thegoonies.github.io/2021/03/28/umass-ctf-2021-malware/)
+[TheGooniesCTF - Securinets CTF Quals 2021 - MiTM](https://thegoonies.github.io/2021/03/21/securinetctf-2021-mitm/)
+[TheGooniesCTF - Union CTF 2021 - Human server](https://thegoonies.github.io/2021/02/21/unionctf-2021-human-server/)
+[TheGooniesCTF - justCTF 2020 - That's not crypto](https://thegoonies.github.io/2021/01/31/justctf-2020-thats-not-crypto/)
+[TheGooniesCTF - CrowdStrike CTF 2021 - Module Wow](https://thegoonies.github.io/2021/01/29/crowstrike-ctf-2021-module-wow/)
+[TheGooniesCTF - CrowdStrike CTF 2021 - Matrix](https://thegoonies.github.io/2021/01/29/crowstrike-ctf-2021-matrix/)
