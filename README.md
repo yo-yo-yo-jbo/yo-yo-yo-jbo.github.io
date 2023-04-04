@@ -1,3 +1,6 @@
+Security Researcher, Microsoft  
+[Twitter](https://twitter.com/yo_yo_yo_jbo), [Github](https://github.com/yo-yo-yo-jbo), [LinkedIn](https://www.linkedin.com/in/jonathan-bar-or-89876474/)
+
 # Publications - offensive security
 [Android apps with millions of downloads exposed to high-severity vulnerabilities](https://www.microsoft.com/en-us/security/blog/2022/05/27/android-apps-with-millions-of-downloads-exposed-to-high-severity-vulnerabilities/)  
 [Gatekeeper’s Achilles heel: Unearthing a macOS vulnerability](https://www.microsoft.com/en-us/security/blog/2022/12/19/gatekeepers-achilles-heel-unearthing-a-macos-vulnerability/)  
