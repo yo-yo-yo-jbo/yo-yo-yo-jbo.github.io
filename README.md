@@ -26,6 +26,8 @@ Security Researcher, Microsoft
 [DEFCON 30 - Free phone got me critical vulns affecting millions Android](https://www.youtube.com/watch?v=Ua_5qwcPgps)  
 [BlueHat IL 2022 - Learning macOS Security by Finding Vulns](https://www.youtube.com/watch?v=jBvE0kciSx8)  
 [DCGVR - The anatomy of UAC bypasses](https://www.youtube.com/watch?v=gvJ12U80q8g)  
+Nullcon Berlin 2023 - The Achilles heel of the macOS Gatekeeper  
+Thotcon 0xC - The Achilles heel of the macOS Gatekeeper  
 
 # Writeups
 [Metasploit Shellcode analysis](https://github.com/yo-yo-yo-jbo/msf_shellcode_analysis)  
