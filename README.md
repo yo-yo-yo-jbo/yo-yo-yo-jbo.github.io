@@ -56,3 +56,8 @@ Security Researcher, Microsoft
 [CVE-2022-42821 - macOS Gatekeeper bypass](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-42821)  
 [CVE-2022-4498 - Buffer overflow in TP-link routers httpd](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4498)  
 [CVE-2022-4499 - Cryptographic side-channel attack on TP-link routers httpd authentication method](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4499)  
+
+# Patents
+Patent 408978-US-NP - Dsyfunctional device detection tool  
+Patent 410415-US-NP - Command classification using active learning  
+Patent 412482-US-NP - Detecting a spoofed entity based on complexity of a distribution of events initiated by the spoofed entity  
