@@ -29,10 +29,12 @@ Security Researcher, Microsoft
 Nullcon Berlin 2023 - The Achilles heel of the macOS Gatekeeper  
 Thotcon 0xC - The Achilles heel of the macOS Gatekeeper  
 
-# Writeups
+# Writeups (misc)
 [Introduction to anti-debugging](https://github.com/yo-yo-yo-jbo/anti_debugging_intro/)  
 [Introduction to Windows injection and hooking](https://github.com/yo-yo-yo-jbo/injection_and_hooking_intro/)  
 [Metasploit Shellcode analysis](https://github.com/yo-yo-yo-jbo/msf_shellcode_analysis/)  
+
+# Writeups (CTF)
 [TheGooniesCTF - ångstrom CTF 2021 - Oracle of Blair](https://thegoonies.github.io/2021/04/08/angstrom-ctf-2021-oracle-of-blair/)  
 [TheGooniesCTF - ångstrom CTF 2021 - substitution](https://thegoonies.github.io/2021/04/07/angstromctf-2021-substitution/)  
 [TheGooniesCTF - ångstrom CTF 2021 - I'm so random](https://thegoonies.github.io/2021/04/07/angstromctf-2021-im_so_random/)  
