@@ -63,6 +63,7 @@ Thotcon 0xC - The Achilles heel of the macOS Gatekeeper
 [CVE-2022-42821 - macOS Gatekeeper bypass](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-42821)  
 [CVE-2022-4498 - Buffer overflow in TP-link routers httpd](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4498)  
 [CVE-2022-4499 - Cryptographic side-channel attack on TP-link routers httpd authentication method](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4499)  
+[CVE-2023-29491 - Multiple memory corruption vulnerabilities in the ncurses library](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29491)  
 
 # Patents
 Patent 408978-US-NP - Dsyfunctional device detection tool  
