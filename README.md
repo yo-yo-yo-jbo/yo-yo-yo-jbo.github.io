@@ -30,6 +30,7 @@ Nullcon Berlin 2023 - The Achilles heel of the macOS Gatekeeper
 Thotcon 0xC - The Achilles heel of the macOS Gatekeeper  
 
 # Writeups (misc)
+[Introduction to macOS - The Gatekeeper](https://github.com/yo-yo-yo-jbo/macos_gatekeeper/)  
 [Introduction to macOS - App structure](https://github.com/yo-yo-yo-jbo/macos_app_structure/)  
 [Introduction to anti-debugging](https://github.com/yo-yo-yo-jbo/anti_debugging_intro/)  
 [Introduction to Windows injection and hooking](https://github.com/yo-yo-yo-jbo/injection_and_hooking_intro/)  
