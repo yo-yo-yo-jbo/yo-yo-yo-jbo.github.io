@@ -29,7 +29,8 @@ Security Researcher, Microsoft
 Nullcon Berlin 2023 - The Achilles heel of the macOS Gatekeeper  
 Thotcon 0xC - The Achilles heel of the macOS Gatekeeper  
 
-# Writeups (misc)
+# Writeups
+[Introduction to macOS - SIP](https://github.com/yo-yo-yo-jbo/macos_sip/)  
 [Introduction to macOS - The sandbox](https://github.com/yo-yo-yo-jbo/macos_sandbox/)  
 [Introduction to macOS - The Gatekeeper](https://github.com/yo-yo-yo-jbo/macos_gatekeeper/)  
 [Introduction to macOS - App structure](https://github.com/yo-yo-yo-jbo/macos_app_structure/)  
