@@ -38,6 +38,7 @@ Thotcon 0xC - The Achilles heel of the macOS Gatekeeper
 [Introduction to anti-debugging](https://github.com/yo-yo-yo-jbo/anti_debugging_intro/)  
 [Introduction to Windows injection and hooking](https://github.com/yo-yo-yo-jbo/injection_and_hooking_intro/)  
 [Metasploit Shellcode analysis](https://github.com/yo-yo-yo-jbo/msf_shellcode_analysis/)  
+[Coding a ransomware in a minute](https://github.com/yo-yo-yo-jbo/ransomware_in_a_minute/)  
 
 # Writeups (CTF)
 [TheGooniesCTF - ångstrom CTF 2021 - Oracle of Blair](https://thegoonies.github.io/2021/04/08/angstrom-ctf-2021-oracle-of-blair/)  
