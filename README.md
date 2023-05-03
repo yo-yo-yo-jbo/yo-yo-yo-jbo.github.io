@@ -2,8 +2,6 @@
 Security Researcher, Microsoft  
 [Twitter](https://twitter.com/yo_yo_yo_jbo), [Github](https://github.com/yo-yo-yo-jbo), [LinkedIn](https://www.linkedin.com/in/jonathan-bar-or-89876474/)
 
-<img src="thumb.jpg" height="150" width="150">
-
 # Publications and speaking
 - ⚔️ Offensive security publications
     - [Android apps with millions of downloads exposed to high-severity vulnerabilities](https://www.microsoft.com/en-us/security/blog/2022/05/27/android-apps-with-millions-of-downloads-exposed-to-high-severity-vulnerabilities/)
