@@ -42,7 +42,7 @@ Security Researcher, Microsoft
     - [Introduction to Windows injection and hooking](https://github.com/yo-yo-yo-jbo/injection_and_hooking_intro/)
     - [Metasploit Shellcode analysis](https://github.com/yo-yo-yo-jbo/msf_shellcode_analysis/)
     - [Coding a ransomware in a minute](https://github.com/yo-yo-yo-jbo/ransomware_in_a_minute/)
-- 🗔 The Goonies CTF
+- 👊 The Goonies CTF
     - [ångstrom CTF 2021 - Oracle of Blair](https://thegoonies.github.io/2021/04/08/angstrom-ctf-2021-oracle-of-blair/)
     - [ångstrom CTF 2021 - substitution](https://thegoonies.github.io/2021/04/07/angstromctf-2021-substitution/)
     - [ångstrom CTF 2021 - I'm so random](https://thegoonies.github.io/2021/04/07/angstromctf-2021-im_so_random/)
@@ -54,7 +54,7 @@ Security Researcher, Microsoft
     - [CrowdStrike CTF 2021 - Matrix](https://thegoonies.github.io/2021/01/29/crowstrike-ctf-2021-matrix/)
 
 # Others
-- 🖳 CVEs
+- 🎉 CVEs
     - [CVE-2023-29491 - Multiple memory corruption vulnerabilities in the ncurses library](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29491)
     - [CVE-2022-4499 - Cryptographic side-channel attack on TP-link routers httpd authentication method](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4499)
     - [CVE-2022-4498 - Buffer overflow in TP-link routers httpd](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4498)
