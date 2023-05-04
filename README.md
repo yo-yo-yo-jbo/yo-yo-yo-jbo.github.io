@@ -42,6 +42,8 @@ Security Researcher, Microsoft
     - [Introduction to Windows injection and hooking](https://github.com/yo-yo-yo-jbo/injection_and_hooking_intro/)
     - [Metasploit Shellcode analysis](https://github.com/yo-yo-yo-jbo/msf_shellcode_analysis/)
     - [Coding a ransomware in a minute](https://github.com/yo-yo-yo-jbo/ransomware_in_a_minute/)
+- 🐧 Linux
+    - [Coding a Linux userland rootkit](https://github.com/yo-yo-yo-jbo/linux_userland_rootkit/)
 - 👊 The Goonies CTF
     - [ångstrom CTF 2021 - Oracle of Blair](https://thegoonies.github.io/2021/04/08/angstrom-ctf-2021-oracle-of-blair/)
     - [ångstrom CTF 2021 - substitution](https://thegoonies.github.io/2021/04/07/angstromctf-2021-substitution/)
