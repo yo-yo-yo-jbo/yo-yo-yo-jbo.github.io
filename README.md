@@ -2,7 +2,9 @@
 Security Researcher, Microsoft  
 [Twitter](https://twitter.com/yo_yo_yo_jbo), [Github](https://github.com/yo-yo-yo-jbo), [LinkedIn](https://www.linkedin.com/in/jonathan-bar-or-89876474/)
 
-# Publications and speaking
+<details>
+    <summary>Publications and speaking</summary>
+
 - ⚔️ Offensive security publications
     - [Android apps with millions of downloads exposed to high-severity vulnerabilities](https://www.microsoft.com/en-us/security/blog/2022/05/27/android-apps-with-millions-of-downloads-exposed-to-high-severity-vulnerabilities/)
     - [Gatekeeper’s Achilles heel: Unearthing a macOS vulnerability](https://www.microsoft.com/en-us/security/blog/2022/12/19/gatekeepers-achilles-heel-unearthing-a-macos-vulnerability/)
@@ -29,7 +31,10 @@ Security Researcher, Microsoft
     - [DCGVR - The anatomy of UAC bypasses](https://www.youtube.com/watch?v=gvJ12U80q8g)
     - Thotcon 0xC - The Achilles heel of the macOS Gatekeeper
 
-# Writeups
+</details>
+<details>
+    <summary>Writeups</summary>
+
 - 🍎 Apple macOS
     - [Introduction to macOS - App structure](https://github.com/yo-yo-yo-jbo/macos_app_structure/)
     - [Introduction to macOS - The Gatekeeper](https://github.com/yo-yo-yo-jbo/macos_gatekeeper/)
@@ -55,7 +60,10 @@ Security Researcher, Microsoft
     - [CrowdStrike CTF 2021 - Module Wow](https://thegoonies.github.io/2021/01/29/crowstrike-ctf-2021-module-wow/)
     - [CrowdStrike CTF 2021 - Matrix](https://thegoonies.github.io/2021/01/29/crowstrike-ctf-2021-matrix/)
 
-# Others
+</details>
+<details>
+    <summary>Others</summary>
+
 - 🎉 CVEs
     - [CVE-2023-29491 - Multiple memory corruption vulnerabilities in the ncurses library](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29491)
     - [CVE-2022-4499 - Cryptographic side-channel attack on TP-link routers httpd authentication method](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4499)
@@ -75,6 +83,8 @@ Security Researcher, Microsoft
     - [CVE-2021-30892 - macOS SIP bypass](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30892)
     - [CVE-2017-0095 - Hyper-V vSMB Remote Code Execution](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0095)
 - 💡 Patents
-    - Patent 408978-US-NP - Dsyfunctional device detection tool  
-    - Patent 410415-US-NP - Command classification using active learning  
-    - Patent 412482-US-NP - Detecting a spoofed entity based on complexity of a distribution of events initiated by the spoofed entity  
+    - Patent 408978-US-NP - Dsyfunctional device detection tool
+    - Patent 410415-US-NP - Command classification using active learning
+    - Patent 412482-US-NP - Detecting a spoofed entity based on complexity of a distribution of events initiated by the spoofed entity
+
+</details>
