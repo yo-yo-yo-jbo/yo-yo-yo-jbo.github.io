@@ -41,6 +41,7 @@ Security Researcher, Microsoft
     - [Introduction to Windows injection and hooking](https://github.com/yo-yo-yo-jbo/injection_and_hooking_intro/)
     - [Metasploit Shellcode analysis](https://github.com/yo-yo-yo-jbo/msf_shellcode_analysis/)
     - [Coding a ransomware in a minute](https://github.com/yo-yo-yo-jbo/ransomware_in_a_minute/)
+    - [Virtual Memory and KnownDlls](https://github.com/yo-yo-yo-jbo/virtual_memory_known_dlls)
 - 🐧 Linux
     - [Coding a Linux userland rootkit](https://github.com/yo-yo-yo-jbo/linux_userland_rootkit/)
 - 👊 The Goonies CTF
