@@ -56,6 +56,7 @@ Security Researcher, Microsoft
     - [CrowdStrike CTF 2021 - Matrix](https://thegoonies.github.io/2021/01/29/crowstrike-ctf-2021-matrix/)
 ## Others
 - 🎉 CVEs
+    - [CVE-2023-32369 - macOS SIP bypass](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32369)
     - [CVE-2023-29491 - Multiple memory corruption vulnerabilities in the ncurses library](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29491)
     - [CVE-2022-4499 - Cryptographic side-channel attack on TP-link routers httpd authentication method](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4499)
     - [CVE-2022-4498 - Buffer overflow in TP-link routers httpd](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4498)
