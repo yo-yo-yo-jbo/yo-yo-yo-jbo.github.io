@@ -30,6 +30,7 @@ Security Researcher, Microsoft
     - Thotcon 0xC - The Achilles heel of the macOS Gatekeeper (not recorded)
 ## Writeups
 - 🍎 Apple macOS
+    - [Introduction to macOS - TCC](https://github.com/yo-yo-yo-jbo/macos_tcc/)
     - [Introduction to macOS - App structure](https://github.com/yo-yo-yo-jbo/macos_app_structure/)
     - [Introduction to macOS - The Gatekeeper](https://github.com/yo-yo-yo-jbo/macos_gatekeeper/)
     - [Introduction to macOS - The sandbox](https://github.com/yo-yo-yo-jbo/macos_sandbox/)
