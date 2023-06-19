@@ -45,6 +45,7 @@ Security Researcher, Microsoft
     - [Coding a ransomware in a minute](https://github.com/yo-yo-yo-jbo/ransomware_in_a_minute/)
     - [Virtual Memory and KnownDlls](https://github.com/yo-yo-yo-jbo/virtual_memory_known_dlls)
     - [UAC bypasses](https://github.com/yo-yo-yo-jbo/uac_bypasses)
+    - [Reverse-engineering Dangerous Dave](https://github.com/yo-yo-yo-jbo/dangerous_dave)
 - 🐧 Linux
     - [Coding a Linux userland rootkit](https://github.com/yo-yo-yo-jbo/linux_userland_rootkit/)
 - 👊 The Goonies CTF
