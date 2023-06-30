@@ -46,6 +46,7 @@ Security Researcher, Microsoft
     - [Virtual Memory and KnownDlls](https://github.com/yo-yo-yo-jbo/virtual_memory_known_dlls)
     - [UAC bypasses](https://github.com/yo-yo-yo-jbo/uac_bypasses)
     - [Reverse-engineering Dangerous Dave](https://github.com/yo-yo-yo-jbo/dangerous_dave)
+    - [Binary Golf 4 - COM files](https://github.com/yo-yo-yo-jbo/binary_golf_com)
 - 🐧 Linux
     - [Coding a Linux userland rootkit](https://github.com/yo-yo-yo-jbo/linux_userland_rootkit/)
 - 👊 The Goonies CTF
