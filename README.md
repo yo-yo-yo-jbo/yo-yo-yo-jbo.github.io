@@ -29,6 +29,9 @@ Security Researcher, Microsoft
     - [BlueHat IL 2022 - Learning macOS Security by Finding Vulns](https://www.youtube.com/watch?v=jBvE0kciSx8)
     - [DCGVR - The anatomy of UAC bypasses](https://www.youtube.com/watch?v=gvJ12U80q8g)
     - Thotcon 0xC - The Achilles heel of the macOS Gatekeeper (not recorded)
+    - Exploitcon 2023 (Bellvue) - The curse of ncurses (TBD)
+    - DCGVR - The curse of ncurses (TBD)
+    - DEFCON 31 - Getting a Migraine (TBD)
 ## Writeups
 - 🍎 Apple macOS
     - [Introduction to macOS - TCC](https://github.com/yo-yo-yo-jbo/macos_tcc/)
