@@ -25,6 +25,7 @@ Security Researcher, Microsoft
     - [SANS - Windows Defender ATPs Advanced Hunting: Using Flexible Queries to Hunt Across Your Endpoints](https://www.sans.org/webcasts/windows-defender-atps-advanced-hunting-flexible-queries-hunt-endpoints-108005/)
     - [Nullcon Berlin 2023 - The Achilles heel of the macOS Gatekeeper](https://youtu.be/dBIyjQH6E-c)
     - [Nullcon - macOS Security Features Bypasses by Example](https://nullcon.net/webinardetail/macOS-security-features-bypasses-by-example)
+    - [AVAR 2022 - Security mechanisms on macOS and bypassing them](https://register.gotowebinar.com/register/4053212602586242061)
     - [DEFCON 30 - Free phone got me critical vulns affecting millions Android](https://www.youtube.com/watch?v=Ua_5qwcPgps)
     - [BlueHat IL 2022 - Learning macOS Security by Finding Vulns](https://www.youtube.com/watch?v=jBvE0kciSx8)
     - [DCGVR - The anatomy of UAC bypasses](https://www.youtube.com/watch?v=gvJ12U80q8g)
