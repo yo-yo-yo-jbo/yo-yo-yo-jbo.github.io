@@ -84,6 +84,6 @@ Security Researcher, Microsoft
     - [CVE-2021-30892 - macOS SIP bypass](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30892)
     - [CVE-2017-0095 - Hyper-V vSMB Remote Code Execution](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0095)
 - 💡 Patents
-    - Patent 408978-US-NP - Dsyfunctional device detection tool
+    - Patent 408978-US-NP - Dysfunctional device detection tool
     - Patent 410415-US-NP - Command classification using active learning
     - Patent 412482-US-NP - Detecting a spoofed entity based on complexity of a distribution of events initiated by the spoofed entity
