@@ -21,8 +21,9 @@ Security Researcher, Microsoft
     - [Inside Microsoft 365 Defender: Attack modeling for finding and stopping lateral movement](https://www.microsoft.com/en-us/security/blog/2020/06/10/the-science-behind-microsoft-threat-protection-attack-modeling-for-finding-and-stopping-evasive-ransomware/)
     - [Living-Off-The-Land Command Detection Using Active Learning](https://www.microsoft.com/en-us/research/publication/living-off-the-land-command-detection-using-active-learning/)
     - [Rise in XorDdos: A deeper look at the stealthy DDoS malware targeting Linux devices](https://www.microsoft.com/en-us/security/blog/2022/05/19/rise-in-xorddos-a-deeper-look-at-the-stealthy-ddos-malware-targeting-linux-devices/)
-- 🎤 Conferences
+- 🎤 Conferences and public speaking
     - [SANS - Windows Defender ATPs Advanced Hunting: Using Flexible Queries to Hunt Across Your Endpoints](https://www.sans.org/webcasts/windows-defender-atps-advanced-hunting-flexible-queries-hunt-endpoints-108005/)
+    - [Security Unlocked - Discovering Router Vulnerabilities with Anomaly Detection](https://thecyberwire.com/podcasts/security-unlocked/37/transcript)
     - [Nullcon Berlin 2023 - The Achilles heel of the macOS Gatekeeper](https://youtu.be/dBIyjQH6E-c)
     - [Nullcon - macOS Security Features Bypasses by Example](https://nullcon.net/webinardetail/macOS-security-features-bypasses-by-example)
     - [AVAR 2022 - Security mechanisms on macOS and bypassing them](https://register.gotowebinar.com/register/4053212602586242061)
