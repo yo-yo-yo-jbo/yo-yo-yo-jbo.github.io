@@ -13,6 +13,7 @@ Security Researcher, Microsoft
     - [New macOS vulnerability, “powerdir,” could lead to unauthorized user data access](https://www.microsoft.com/en-us/security/blog/2022/01/10/new-macos-vulnerability-powerdir-could-lead-to-unauthorized-user-data-access/)
     - [Uncovering a ChromeOS remote memory corruption vulnerability](https://www.microsoft.com/security/blog/2022/08/19/uncovering-a-chromeos-remote-memory-corruption-vulnerability/)
     - [Uncovering a macOS App Sandbox escape vulnerability: A deep dive into CVE-2022-26706](https://www.microsoft.com/security/blog/2022/07/13/uncovering-a-macos-app-sandbox-escape-vulnerability-a-deep-dive-into-cve-2022-26706/)
+    - [Uncursing the ncurses: Memory corruption vulnerabilities found in library](https://www.microsoft.com/en-us/security/blog/2023/09/14/uncursing-the-ncurses-memory-corruption-vulnerabilities-found-in-library/)
 - 🛡️ Defensive security publications
     - [Blue teams helping red teams: A tale of a process crash, PowerShell, and the MITRE ATT&CK evaluation](https://www.microsoft.com/en-us/security/blog/2020/06/11/blue-teams-helping-red-teams-a-tale-of-a-process-crash-powershell-and-the-mitre-attck-evaluation/)
     - [DynoRoot (CVE-2018-1111) exposed via Advanced Hunting](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/dynoroot-cve-2018-1111-exposed-via-advanced-hunting/ba-p/202568)
