@@ -28,12 +28,12 @@ Security Researcher, Microsoft
     - [Nullcon Berlin 2023 - The Achilles heel of the macOS Gatekeeper](https://youtu.be/dBIyjQH6E-c)
     - [Nullcon - macOS Security Features Bypasses by Example](https://nullcon.net/webinardetail/macOS-security-features-bypasses-by-example)
     - [AVAR 2022 - Security mechanisms on macOS and bypassing them](https://register.gotowebinar.com/register/4053212602586242061)
-    - [DEFCON 30 - Free phone got me critical vulns affecting millions Android](https://www.youtube.com/watch?v=Ua_5qwcPgps)
+    - [DEFCON 30 VR groups - Free phone got me critical vulns affecting millions Android](https://www.youtube.com/watch?v=Ua_5qwcPgps)
     - [BlueHat IL 2022 - Learning macOS Security by Finding Vulns](https://www.youtube.com/watch?v=jBvE0kciSx8)
-    - [DCGVR - The anatomy of UAC bypasses](https://www.youtube.com/watch?v=gvJ12U80q8g)
+    - [DEFCON VR groups - The anatomy of UAC bypasses](https://www.youtube.com/watch?v=gvJ12U80q8g)
     - Thotcon 0xC - The Achilles heel of the macOS Gatekeeper (not recorded)
     - Exploitcon 2023 (Bellvue) - The curse of ncurses (not recorded)
-    - [DCGVR - The curse of ncurses](https://youtu.be/uqWKWdW8xdk?si=1Pj4ZrtvBDR89Mo0)
+    - [DEFCON31 VR village - The curse of ncurses](https://youtu.be/uqWKWdW8xdk?si=1Pj4ZrtvBDR89Mo0)
     - [DEFCON 31 - Getting a Migraine](https://media.defcon.org/DEF%20CON%2031/DEF%20CON%2031%20video%20and%20slides/DEF%20CON%2031%20-%20Getting%20a%20Migraine%20-%20uncovering%20a%20unique%20SIP%20bypass%20on%20macOS%20-%20Jonathan%20Bar%20Or%2C%20Michael%20Pearse%2C%20and%20Anurag%20Bohra.mp4)
 ## Writeups
 - 🍎 Apple macOS
