@@ -55,8 +55,9 @@ Security Researcher, Microsoft
     - [Binary Golf 4 - COM files](https://github.com/yo-yo-yo-jbo/binary_golf_com)
 - 🐧 Linux
     - [Coding a Linux userland rootkit](https://github.com/yo-yo-yo-jbo/linux_userland_rootkit/)
-- 📚 Cryptography
+- 📚 Cryptography and math
     - [Introduction to cryptography - terminology and first examples](https://github.com/yo-yo-yo-jbo/crypto_terminology/)
+    - [Introduction to cryptography - basic modular arithmetics](https://github.com/yo-yo-yo-jbo/crypto_modular/)
 - 👊 The Goonies CTF
     - [ångstrom CTF 2021 - Oracle of Blair](https://thegoonies.github.io/2021/04/08/angstrom-ctf-2021-oracle-of-blair/)
     - [ångstrom CTF 2021 - substitution](https://thegoonies.github.io/2021/04/07/angstromctf-2021-substitution/)
