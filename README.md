@@ -36,7 +36,7 @@ Security Researcher, Microsoft
     - Exploitcon 2023 (Bellvue) - The curse of ncurses (not recorded)
     - [DEFCON31 VR village - The curse of ncurses](https://youtu.be/uqWKWdW8xdk?si=1Pj4ZrtvBDR89Mo0)
     - [DEFCON 31 - Getting a Migraine](https://media.defcon.org/DEF%20CON%2031/DEF%20CON%2031%20video%20and%20slides/DEF%20CON%2031%20-%20Getting%20a%20Migraine%20-%20uncovering%20a%20unique%20SIP%20bypass%20on%20macOS%20-%20Jonathan%20Bar%20Or%2C%20Michael%20Pearse%2C%20and%20Anurag%20Bohra.mp4)
-    - [On Path - My Professional Journey](https://open.spotify.com/episode/3x4SuG9wItoIyj1bXtVa2H)
+    - [On Path Podcast - My Professional Journey](https://open.spotify.com/episode/3x4SuG9wItoIyj1bXtVa2H)
 ## Writeups
 - 🍎 Apple macOS
     - [Introduction to macOS - TCC](https://github.com/yo-yo-yo-jbo/macos_tcc/)
