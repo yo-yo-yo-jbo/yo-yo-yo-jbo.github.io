@@ -90,7 +90,7 @@ Security Researcher, Microsoft
     - [CVE-2021-35247 - SolarWinds Serv-U LDAP Injection](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-35247)
     - [CVE-2021-30970 - macOS TCC bypass](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30970)
     - [CVE-2021-30892 - macOS SIP bypass](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30892)
-    - [CVE-2020-35785 - NETGEAR DGN2200v1 aurhentication bypass](https://nvd.nist.gov/vuln/detail/CVE-2020-35785)
+    - [CVE-2020-35785 - NETGEAR DGN2200v1 authentication bypass](https://nvd.nist.gov/vuln/detail/CVE-2020-35785)
     - [CVE-2017-0095 - Hyper-V vSMB Remote Code Execution](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0095)
 - 💡 Patents
     - Patent 408978-US-NP - Dysfunctional device detection tool
