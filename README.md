@@ -62,6 +62,7 @@ Security Researcher, Microsoft
     - [Introduction to cryptography - basic modular arithmetics](https://github.com/yo-yo-yo-jbo/crypto_modular/)
     - [Introduction to cryptography - Vigenère cipher](https://github.com/yo-yo-yo-jbo/crypto_vigenere/)
     - [Introduction to cryptography - RSA](https://github.com/yo-yo-yo-jbo/rsa_math/)
+    - [Introduction to cryptography - prime number generation](https://github.com/yo-yo-yo-jbo/generating_random_primes/)
 - 👊 The Goonies CTF
     - [ångstrom CTF 2021 - Oracle of Blair](https://thegoonies.github.io/2021/04/08/angstrom-ctf-2021-oracle-of-blair/)
     - [ångstrom CTF 2021 - substitution](https://thegoonies.github.io/2021/04/07/angstromctf-2021-substitution/)
