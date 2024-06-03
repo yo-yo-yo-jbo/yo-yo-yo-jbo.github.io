@@ -56,6 +56,7 @@ Security Researcher, Microsoft
     - [UAC bypasses](https://github.com/yo-yo-yo-jbo/uac_bypasses)
     - [Reverse-engineering Dangerous Dave](https://github.com/yo-yo-yo-jbo/dangerous_dave)
     - [Binary Golf 4 - COM files](https://github.com/yo-yo-yo-jbo/binary_golf_com)
+    - [Hotkey-based keylogger for Windows](https://github.com/yo-yo-yo-jbo/hotkeyz)
 - 🐧 Linux
     - [Coding a Linux userland rootkit](https://github.com/yo-yo-yo-jbo/linux_userland_rootkit/)
 - 📚 Cryptography and math
