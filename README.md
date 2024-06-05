@@ -59,6 +59,7 @@ Security Researcher, Microsoft
     - [Hotkey-based keylogger for Windows](https://github.com/yo-yo-yo-jbo/hotkeyz)
 - 🐧 Linux
     - [Coding a Linux userland rootkit](https://github.com/yo-yo-yo-jbo/linux_userland_rootkit/)
+    - [Introduction to Linux pwn](https://github.com/yo-yo-yo-jbo/linux_pwn_intro)
 - 📚 Cryptography and math
     - [Introduction to cryptography - terminology and first examples](https://github.com/yo-yo-yo-jbo/crypto_terminology/)
     - [Introduction to cryptography - basic modular arithmetics](https://github.com/yo-yo-yo-jbo/crypto_modular/)
