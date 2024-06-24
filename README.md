@@ -59,7 +59,7 @@ Security Researcher, Microsoft
     - [Hotkey-based keylogger for Windows](https://github.com/yo-yo-yo-jbo/hotkeyz/)
 - 🐧 Linux
     - [Coding a Linux userland rootkit](https://github.com/yo-yo-yo-jbo/linux_userland_rootkit/)
-    - [Linux shellcoding ideas for Binary Golfing](https://github.com/yo-yo-yo-jbo/bggp5_linux_shellcode/)
+    - [Binary Golf 5 - Linux shellcoding ideas](https://github.com/yo-yo-yo-jbo/bggp5_linux_shellcode/)
     - [Introduction to Linux pwn](https://github.com/yo-yo-yo-jbo/linux_pwn_intro/)
 - 📚 Cryptography and math
     - [Introduction to cryptography - terminology and first examples](https://github.com/yo-yo-yo-jbo/crypto_terminology/)
