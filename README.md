@@ -62,7 +62,8 @@ Security Researcher, Microsoft
     - [Coding a Linux userland rootkit](https://github.com/yo-yo-yo-jbo/linux_userland_rootkit/)
     - [Binary Golf 5 - Linux shellcoding ideas](https://github.com/yo-yo-yo-jbo/bggp5_linux_shellcode/)
     - [Binary Golf 5 - Java class format](https://github.com/yo-yo-yo-jbo/bggp5_java_editing/)
-    - [Introduction to Linux pwn](https://github.com/yo-yo-yo-jbo/linux_pwn_intro/)
+    - [Introduction to Linux pwn - the beginning](https://github.com/yo-yo-yo-jbo/linux_pwn_intro/)
+    - [Introduction to Linux pwn - overriding the return address](https://github.com/yo-yo-yo-jbo/linux_pwn_ret/)
 - 📚 Cryptography and math
     - [Introduction to cryptography - terminology and first examples](https://github.com/yo-yo-yo-jbo/crypto_terminology/)
     - [Introduction to cryptography - basic modular arithmetics](https://github.com/yo-yo-yo-jbo/crypto_modular/)
