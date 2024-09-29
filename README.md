@@ -108,3 +108,4 @@ Security Researcher, Microsoft
     - Patent 412482-US-NP - Detecting a spoofed entity based on complexity of a distribution of events initiated by the spoofed entity
 - 🚧 Other projects
     - [CicadaUtils](https://github.com/yo-yo-yo-jbo/cicada_tools) - [Cicada 3301](https://en.wikipedia.org/wiki/Cicada_3301) research utility.
+    - [Hotkeyz](https://github.com/yo-yo-yo-jbo/hotkeyz) - Windows based keylogging capability using hotkeys.
