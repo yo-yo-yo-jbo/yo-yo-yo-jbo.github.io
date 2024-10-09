@@ -107,5 +107,6 @@ Security Researcher, Microsoft
     - Patent 410415-US-NP - Command classification using active learning
     - Patent 412482-US-NP - Detecting a spoofed entity based on complexity of a distribution of events initiated by the spoofed entity
 - 🚧 Other projects
-    - [CicadaTools](https://github.com/yo-yo-yo-jbo/cicada_tools) - A Cicada 3301 research utility.
+    - [Cicada Tools](https://github.com/yo-yo-yo-jbo/cicada_tools) - A Cicada 3301 research utility.
     - [Hotkeyz](https://github.com/yo-yo-yo-jbo/hotkeyz) - Windows based keylogging capability using hotkeys.
+    - [HM-surf evaluator](https://github.com/yo-yo-yo-jbo/hm-surf) - An evaluator for CVE-2024-44133 for all common macOS browsers.
