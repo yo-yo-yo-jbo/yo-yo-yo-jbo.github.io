@@ -1,6 +1,7 @@
 # Jonathan Bar Or ("JBO")
 Security Researcher, Microsoft  
 [Twitter](https://twitter.com/yo_yo_yo_jbo), [Github](https://github.com/yo-yo-yo-jbo), [LinkedIn](https://www.linkedin.com/in/jonathan-bar-or-89876474/)
+<p align="left"><img src="jbo.png" width=250 height=250></p>
 
 ## Publications and speaking
 - ⚔️ Offensive security publications
