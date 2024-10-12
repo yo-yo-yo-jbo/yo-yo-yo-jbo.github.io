@@ -65,6 +65,7 @@ Security Researcher, Microsoft
     - [Binary Golf 5 - Java class format](https://github.com/yo-yo-yo-jbo/bggp5_java_editing/)
     - [Introduction to Linux pwn - the beginning](https://github.com/yo-yo-yo-jbo/linux_pwn_intro/)
     - [Introduction to Linux pwn - overriding the return address](https://github.com/yo-yo-yo-jbo/linux_pwn_ret/)
+    - [Introduction to Linux pwn - ROP chains](https://github.com/yo-yo-yo-jbo/linux_pwn_rop/)
 - 📚 Cryptography and math
     - [Introduction to cryptography - terminology and first examples](https://github.com/yo-yo-yo-jbo/crypto_terminology/)
     - [Introduction to cryptography - basic modular arithmetics](https://github.com/yo-yo-yo-jbo/crypto_modular/)
