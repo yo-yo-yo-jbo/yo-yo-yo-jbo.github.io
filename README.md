@@ -112,3 +112,4 @@ Security Researcher, Microsoft
     - [Cicada Tools](https://github.com/yo-yo-yo-jbo/cicada_tools) - A Cicada 3301 research utility.
     - [Hotkeyz](https://github.com/yo-yo-yo-jbo/hotkeyz) - Windows based keylogging capability using hotkeys.
     - [HM-surf evaluator](https://github.com/yo-yo-yo-jbo/hm-surf) - An evaluator for CVE-2024-44133 for all common macOS browsers.
+    - [Miniclass-exec](https://github.com/yo-yo-yo-jbo/bggp5_java_editing) - Minimization of Java bytecode to execute a certain commandline.
