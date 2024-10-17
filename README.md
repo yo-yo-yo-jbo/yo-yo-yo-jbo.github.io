@@ -28,7 +28,7 @@ Security Researcher, Microsoft
     - [DEFCON 30 VR village - Free phone got me critical vulns affecting millions Android](https://www.youtube.com/watch?v=Ua_5qwcPgps)
     - [DEFCON 31 VR village - The curse of ncurses](https://youtu.be/uqWKWdW8xdk?si=1Pj4ZrtvBDR89Mo0)
     - [DEFCON 31 - Getting a Migraine](https://www.youtube.com/watch?v=zxZesAN-TEk)
-    - [DEFCON 32 VR village - The Sand Castle - the state of macOS sandbox escapes through the lens of Microsoft Office ]
+    - [DEFCON 32 VR village - The Sand Castle - the state of macOS sandbox escapes through the lens of Microsoft Office](https://www.youtube.com/watch?v=JA746olbXq4)
     - [DEFCON VR groups - The anatomy of UAC bypasses](https://www.youtube.com/watch?v=gvJ12U80q8g)
     - [DEFCON VR groups - A Very Dangerous Dave](https://youtu.be/n0n8PmKdbLo?si=0YV2auJ-jmI6Udu4)
     - [Nullcon Berlin 2023 - The Achilles heel of the macOS Gatekeeper](https://youtu.be/dBIyjQH6E-c)
