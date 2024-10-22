@@ -114,3 +114,4 @@ Security Researcher, Microsoft
     - [Hotkeyz](https://github.com/yo-yo-yo-jbo/hotkeyz) - Windows based keylogging capability using hotkeys.
     - [HM-surf evaluator](https://github.com/yo-yo-yo-jbo/hm-surf) - An evaluator for CVE-2024-44133 for all common macOS browsers.
     - [Miniclass-exec](https://github.com/yo-yo-yo-jbo/bggp5_java_editing) - Minimization of Java bytecode to execute a certain commandline.
+    - [Dangerous Dave level editor](https://github.com/yo-yo-yo-jbo/dangerous_dave) - a level editor to the 1990 Dangerous Dave DOS game.
