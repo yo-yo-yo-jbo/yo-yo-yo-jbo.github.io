@@ -74,6 +74,7 @@ Security Researcher, Microsoft
     - [Introduction to cryptography - Vigenère cipher](https://github.com/yo-yo-yo-jbo/crypto_vigenere/)
     - [Introduction to cryptography - RSA](https://github.com/yo-yo-yo-jbo/rsa_math/)
     - [Introduction to cryptography - prime number generation](https://github.com/yo-yo-yo-jbo/generating_random_primes/)
+    - [The relation between programming and mathematical formulae](https://github.com/yo-yo-yo-jbo/prog2math/)
 - 👊 The Goonies CTF
     - [ångstrom CTF 2021 - Oracle of Blair](https://thegoonies.github.io/2021/04/08/angstrom-ctf-2021-oracle-of-blair/)
     - [ångstrom CTF 2021 - substitution](https://thegoonies.github.io/2021/04/07/angstromctf-2021-substitution/)
@@ -116,3 +117,4 @@ Security Researcher, Microsoft
     - [HM-surf evaluator](https://github.com/yo-yo-yo-jbo/hm-surf) - An evaluator for CVE-2024-44133 for all common macOS browsers.
     - [Miniclass-exec](https://github.com/yo-yo-yo-jbo/bggp5_java_editing) - Minimization of Java bytecode to execute a certain commandline.
     - [Dangerous Dave level editor](https://github.com/yo-yo-yo-jbo/dangerous_dave) - a level editor to the 1990 Dangerous Dave DOS game.
+    - [Prog2Math](https://github.com/yo-yo-yo-jbo/prog2math) - translates programming concepts to LaTeX formulae.
