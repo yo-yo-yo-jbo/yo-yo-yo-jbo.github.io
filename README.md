@@ -36,7 +36,7 @@ Security Researcher, Microsoft
     - [BlueHat Israel 2022 - Learning macOS Security by Finding Vulns](https://www.youtube.com/watch?v=jBvE0kciSx8)
     - Thotcon 0xC - The Achilles heel of the macOS Gatekeeper (not recorded)
     - B-sides Vancouver 2024 - The Sand Castle - the state of macOS sandbox escapes through the lens of Microsoft Office (not recorded)
-    - [The Hack Summit 2024 - The Sand Castle - the state of macOS sandbox escapes through the lens of Microsoft Office] (https://thehacksummit.com/en/#agenda)
+    - [The Hack Summit 2024 - The Sand Castle - the state of macOS sandbox escapes through the lens of Microsoft Office](https://thehacksummit.com/en/#agenda)
     - Hushcon Seattle 2024 - HM Surf - Having fun with Safari and other browsers (not recorded)
     - [AVAR 2022 - Security mechanisms on macOS and bypassing them](https://register.gotowebinar.com/register/4053212602586242061)
     - Exploitcon 2023 (Bellvue) - The curse of ncurses (not recorded)
