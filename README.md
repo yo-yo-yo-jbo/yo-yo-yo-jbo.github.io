@@ -37,7 +37,7 @@ Security Researcher, Microsoft
     - Thotcon 0xC - The Achilles heel of the macOS Gatekeeper (not recorded)
     - B-sides Vancouver 2024 - The Sand Castle - the state of macOS sandbox escapes through the lens of Microsoft Office (not recorded)
     - [The Hack Summit 2024 - The Sand Castle - the state of macOS sandbox escapes through the lens of Microsoft Office](https://thehacksummit.com/en/#agenda)
-    - Hushcon Seattle 2024 - HM Surf - Having fun with Safari and other browsers (not recorded)
+    - HushCon Seattle 2024 - HM Surf - Having fun with Safari and other browsers (not recorded)
     - [AVAR 2022 - Security mechanisms on macOS and bypassing them](https://register.gotowebinar.com/register/4053212602586242061)
     - Exploitcon 2023 (Bellvue) - The curse of ncurses (not recorded)
     - [SANS - Windows Defender ATPs Advanced Hunting: Using Flexible Queries to Hunt Across Your Endpoints](https://www.sans.org/webcasts/windows-defender-atps-advanced-hunting-flexible-queries-hunt-endpoints-108005/)
