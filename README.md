@@ -122,4 +122,4 @@ Security Researcher, Microsoft
     - [Miniclass-exec](https://github.com/yo-yo-yo-jbo/bggp5_java_editing) - Minimization of Java bytecode to execute a certain commandline.
     - [Dangerous Dave level editor](https://github.com/yo-yo-yo-jbo/dangerous_dave) - a level editor to the 1990 Dangerous Dave DOS game.
     - [Prog2Math](https://github.com/yo-yo-yo-jbo/prog2math) - translates programming concepts to LaTeX formulae.
-    - [Dictiopwn - abusing unix_chkpwd](https://github.com/yo-yo-yo-jbo/dictiopwn)
+    - [Dictiopwn](https://github.com/yo-yo-yo-jbo/dictiopwn) - dictionary attack on Linux.
