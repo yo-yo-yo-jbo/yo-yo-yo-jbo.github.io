@@ -70,6 +70,7 @@ Security Researcher, Microsoft
     - [Introduction to Linux pwn - overriding the return address](https://github.com/yo-yo-yo-jbo/linux_pwn_ret/)
     - [Introduction to Linux pwn - ROP chains](https://github.com/yo-yo-yo-jbo/linux_pwn_rop/)
     - [Wordle CTF challenge](https://github.com/yo-yo-yo-jbo/pwn_wordle/)
+    - [Dictiopwn - abusing unix_chkpwd](https://github.com/yo-yo-yo-jbo/dictiopwn/)
 - 📚 Cryptography and math
     - [Introduction to cryptography - terminology and first examples](https://github.com/yo-yo-yo-jbo/crypto_terminology/)
     - [Introduction to cryptography - basic modular arithmetics](https://github.com/yo-yo-yo-jbo/crypto_modular/)
@@ -121,3 +122,4 @@ Security Researcher, Microsoft
     - [Miniclass-exec](https://github.com/yo-yo-yo-jbo/bggp5_java_editing) - Minimization of Java bytecode to execute a certain commandline.
     - [Dangerous Dave level editor](https://github.com/yo-yo-yo-jbo/dangerous_dave) - a level editor to the 1990 Dangerous Dave DOS game.
     - [Prog2Math](https://github.com/yo-yo-yo-jbo/prog2math) - translates programming concepts to LaTeX formulae.
+    - [Dictiopwn - abusing unix_chkpwd](https://github.com/yo-yo-yo-jbo/dictiopwn)
