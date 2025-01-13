@@ -35,6 +35,7 @@ Security Researcher, Microsoft
     - [Nullcon Berlin 2023 - The Achilles heel of the macOS Gatekeeper](https://youtu.be/dBIyjQH6E-c)
     - [Nullcon - macOS Security Features Bypasses by Example](https://nullcon.net/webinardetail/macOS-security-features-bypasses-by-example)
     - [BlueHat Israel 2022 - Learning macOS Security by Finding Vulns](https://www.youtube.com/watch?v=jBvE0kciSx8)
+    - BlueHat Israel 2017 - Defending the Defenders - tampering EDR solutions (not recorded)
     - Thotcon 0xC - The Achilles heel of the macOS Gatekeeper (not recorded)
     - B-sides Vancouver 2024 - The Sand Castle - the state of macOS sandbox escapes through the lens of Microsoft Office (not recorded)
     - [The Hack Summit 2024 - The Sand Castle - the state of macOS sandbox escapes through the lens of Microsoft Office](https://thehacksummit.com/en/#agenda)
