@@ -64,6 +64,7 @@ Security Researcher, Microsoft
     - [Reverse-engineering Dangerous Dave](https://github.com/yo-yo-yo-jbo/dangerous_dave/)
     - [Binary Golf 4 - COM files](https://github.com/yo-yo-yo-jbo/binary_golf_com/)
     - [Hotkey-based keylogger for Windows](https://github.com/yo-yo-yo-jbo/hotkeyz/)
+    - [Keylogging without conditions or loops](https://github.com/yo-yo-yo-jbo/no_conditions_programming/)
 - 🐧 Linux (and some binary editing)
     - [Coding a Linux userland rootkit](https://github.com/yo-yo-yo-jbo/linux_userland_rootkit/)
     - [Binary Golf 5 - Linux shellcoding ideas](https://github.com/yo-yo-yo-jbo/bggp5_linux_shellcode/)
