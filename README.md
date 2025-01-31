@@ -1,7 +1,7 @@
 # Jonathan Bar Or ("JBO")
 Security Researcher, Microsoft  
 [Twitter / X](https://twitter.com/yo_yo_yo_jbo), [Github](https://github.com/yo-yo-yo-jbo), [LinkedIn](https://www.linkedin.com/in/jonathan-bar-or-89876474/), [Bluesky](https://bsky.app/profile/yo-yo-yo-jbo.bsky.social)
-<p align="left"><img src="jbo.png" width=250 height=250></p>
+<p align="left"><img src="jbo.png" width=250 height=250 alt="Jonathan Bar Or presenting at Nullcon Berlin"></p>
 
 ## Publications and speaking
 - ⚔️ Offensive security publications
