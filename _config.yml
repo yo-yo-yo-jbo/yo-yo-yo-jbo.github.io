@@ -1,3 +1,6 @@
-theme: jekyll-theme-minimal
-title: "Jonathan Bar Or | Information Security Expert | Hacker"
-description: "Jonathan Bar Or is an information security expert and a hacker"
+theme: millidocs-dark
+title: "Jonathan Bar Or"
+description: >
+  Jonathan Bar Or ("JBO") is an information security expert and a hacker
+  focusing on binary analysis, vulnerability research, application security,
+  reverse engineering and cryptography
