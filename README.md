@@ -46,6 +46,7 @@ Information Security Expert | Hacker
     - [SANS - Windows Defender ATPs Advanced Hunting: Using Flexible Queries to Hunt Across Your Endpoints](https://www.sans.org/webcasts/windows-defender-atps-advanced-hunting-flexible-queries-hunt-endpoints-108005/)
     - [Security Unlocked - Discovering Router Vulnerabilities with Anomaly Detection](https://thecyberwire.com/podcasts/security-unlocked/37/transcript)
     - [On Path Podcast - My Professional Journey](https://open.spotify.com/episode/3x4SuG9wItoIyj1bXtVa2H)
+
 ## Writeups
 - 🍎 Apple macOS
     - [Introduction to macOS - TCC](https://github.com/yo-yo-yo-jbo/macos_tcc/)
@@ -92,7 +93,8 @@ Information Security Expert | Hacker
     - [justCTF 2020 - That's not crypto](https://thegoonies.github.io/2021/01/31/justctf-2020-thats-not-crypto/)
     - [CrowdStrike CTF 2021 - Module Wow](https://thegoonies.github.io/2021/01/29/crowstrike-ctf-2021-module-wow/)
     - [CrowdStrike CTF 2021 - Matrix](https://thegoonies.github.io/2021/01/29/crowstrike-ctf-2021-matrix/)
-## Others
+
+## Miscellaneous
 - 🎉 CVEs
     - [CVE-2024-56738 - GRUB2 cryptographic side channel attack](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56738)
     - [CVE-2024-56737 - GRUB2 HFS heap overflow](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56737)
