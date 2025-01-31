@@ -1,6 +1,8 @@
-remote_theme: pages-themes/midnight@v0.2.0
+remote_theme: jekyll/minima
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
+minima:
+  skin: dark
 title: "Jonathan Bar Or"
 description: >
   Jonathan Bar Or ("JBO") is an information security expert and a hacker
