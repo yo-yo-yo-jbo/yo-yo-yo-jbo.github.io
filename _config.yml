@@ -1,4 +1,4 @@
-remote_theme: pages-themes/midnight@v0.2.0
+theme: Hacker
 plugins:
 - jekyll-remote-theme
 title: "Jonathan Bar Or"
@@ -6,4 +6,3 @@ description: >
   Jonathan Bar Or ("JBO") is an information security expert and a hacker
   focusing on binary analysis, vulnerability research, application security,
   reverse engineering and cryptography
-show_downloads: false
