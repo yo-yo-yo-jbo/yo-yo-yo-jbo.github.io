@@ -3,7 +3,8 @@ plugins:
   - jekyll-remote-theme
 minima:
   skin: dark
-title: "Jonathan Bar Or"
+title: >
+  Jonathan Bar Or ("JBO")
 description: >
   Jonathan Bar Or ("JBO") is an information security expert and a hacker
   focusing on binary analysis, vulnerability research, application security,
