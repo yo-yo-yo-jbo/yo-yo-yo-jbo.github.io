@@ -91,7 +91,7 @@
     - [justCTF 2020 - That's not crypto](https://thegoonies.github.io/2021/01/31/justctf-2020-thats-not-crypto/)
     - [CrowdStrike CTF 2021 - Module Wow](https://thegoonies.github.io/2021/01/29/crowstrike-ctf-2021-module-wow/)
     - [CrowdStrike CTF 2021 - Matrix](https://thegoonies.github.io/2021/01/29/crowstrike-ctf-2021-matrix/)
- - 📚 Other publications
+ - 🎭 Other publications
     - [PagedOut! #5 - The art of Java class minimization](https://pagedout.institute/download/PagedOut_005.pdf)
     - [DigitalWhisper #152 - A very Dangerous Dave (Hebrew)](https://www.digitalwhisper.co.il/issue152)
     - [DigitalWhisper #154 - Getting a Migraine (Hebrew)](https://www.digitalwhisper.co.il/issue154)
