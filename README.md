@@ -114,7 +114,7 @@
     - [CVE-2025-0686 - GRUB2 buffer overflow during block reads due to an out-of-bounds operation in the UDF filesystem](https://access.redhat.com/security/cve/cve-2025-0686)
     - [CVE-2025-0689 - GRUB2 buffer overflow during symbolic link handling due to an integer overflow in the UFS filesystem](https://access.redhat.com/security/cve/cve-2025-0689)
     - [CVE-2025-0690 - GRUB2 buffer overflow due to an unsafe signed integer overflow in the read builtin command](https://access.redhat.com/security/cve/cve-2025-0690)
-    - [CVE-2025-1118 - GRUB2 arbitrary physical memory read due to misconfiguration of the dump builtin command in Secure Boot environments](https://access.redhat.com/security/cve/cve-2025-1118)
+    - [CVE-2025-1118 - GRUB2 arbitrary memory read due to a misconfiguration of the dump command in Secure Boot environments](https://access.redhat.com/security/cve/cve-2025-1118)
     - [CVE-2025-1125 - GRUB2 buffer overflow during file opens due to an integer overflow in the HFS filesystem](https://access.redhat.com/security/cve/cve-2025-1125)
     - [CVE-2024-56738 - GRUB2 cryptographic side channel attack](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56738)
     - [CVE-2024-56737 - GRUB2 buffer overflow in filesystem mounting due to wild strcpy in the HFS filesystem](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56737)
