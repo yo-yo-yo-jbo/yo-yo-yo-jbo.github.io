@@ -53,6 +53,7 @@
     - [Introduction to macOS - The sandbox](https://github.com/yo-yo-yo-jbo/macos_sandbox/)
     - [Introduction to macOS - SIP](https://github.com/yo-yo-yo-jbo/macos_sip/)
     - [Introduction to macOS - Mach Ports](https://github.com/yo-yo-yo-jbo/macos_mach_ports/)
+    - [Introduction to macOS - XProtect](https://github.com/yo-yo-yo-jbo/macos_xprotect/)
 - 🪟 Microsoft Windows (and some DOS)
     - [MBR payload analysis](https://github.com/yo-yo-yo-jbo/mbr_analysis/)
     - [Introduction to anti-debugging](https://github.com/yo-yo-yo-jbo/anti_debugging_intro/)
