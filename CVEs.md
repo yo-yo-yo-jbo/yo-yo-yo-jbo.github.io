@@ -1,5 +1,4 @@
-
-== Public CVEs and acknowledgements by Jonathan Bar Or
+## Public CVEs and acknowledgements by Jonathan Bar Or ("JBO")
 | CVE ID                                                                          | Platform(s)        | Description                                                                                                      |
 | :-----------------------------------------------------------------------------: | :--------------: | :----------------------------------------------------------------------------------------------------------------: |
 | [CVE-2025-26721](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-26721) | Bootloader / IoT | Barebox buffer overflow during file creation in the persistent storage                                             |
