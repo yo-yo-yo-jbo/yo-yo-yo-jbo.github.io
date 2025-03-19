@@ -1,6 +1,12 @@
 [Twitter / X](https://x.com/yo_yo_yo_jbo), [Github](https://github.com/yo-yo-yo-jbo), [LinkedIn](https://www.linkedin.com/in/jonathan-bar-or-89876474/), [Bluesky](https://bsky.app/profile/yo-yo-yo-jbo.bsky.social)
 <p align="left"><img src="jbo.png" width=250 height=250 alt="Jonathan Bar Or presenting at Nullcon Berlin"></p>
 
+## About
+Jonathan Bar Or ("JBO") is an information security expert and a hacker, focusing on binary analysis, vulnerability research, application security, reverse engineering, and cryptography.  
+His research has uncovered critical vulnerabilities that have impacted millions of users worldwide, shaping security best practices across the industry.  
+Frequently cited by major news outlets, his work has influenced both academia and industry, driving meaningful security improvements.  
+He is also a seasoned public speaker, presenting at top security conferences like Black Hat and sharing deep technical insights on exploitation techniques, mitigations, and emerging threats.
+
 ## Publications and speaking
 - ⚔️ Offensive security publications
     - [Analyzing CVE-2024-44243, a macOS System Integrity Protection bypass through kernel extensions](https://www.microsoft.com/en-us/security/blog/2025/01/13/analyzing-cve-2024-44243-a-macos-system-integrity-protection-bypass-through-kernel-extensions/)
