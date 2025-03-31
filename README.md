@@ -106,6 +106,7 @@ He is also a seasoned public speaker, presenting at top security conferences lik
 
 ## Miscellaneous
 - 🎉 CVEs
+    - [CVE-2025-31191 - macOS sandbox escape using keychain item redefinitions](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-31191)
     - [CVE-2025-26721 - Barebox buffer overflow during file creation in the persistent storage](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-26721)
     - [CVE-2025-26722 - Barebox buffer overflow during symbolic link handling due to an integer overflow in the SquashFS filesystem](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-26722)
     - [CVE-2025-26723 - Barebox buffer overflow during symbolic link handling due to an integer overflow in the EXT4 filesystem](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-26723)
