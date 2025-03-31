@@ -10,6 +10,7 @@ He is also a seasoned public speaker, presenting at top security conferences lik
 ## Publications and speaking
 - ⚔️ Offensive security publications
     - [Analyzing CVE-2024-44243, a macOS System Integrity Protection bypass through kernel extensions](https://www.microsoft.com/en-us/security/blog/2025/01/13/analyzing-cve-2024-44243-a-macos-system-integrity-protection-bypass-through-kernel-extensions/)
+    - [Analyzing open-source bootloaders: Finding vulnerabilities faster with AI](https://www.microsoft.com/en-us/security/blog/2025/03/31/analyzing-open-source-bootloaders-finding-vulnerabilities-faster-with-ai/)
     - [Android apps with millions of downloads exposed to high-severity vulnerabilities](https://www.microsoft.com/en-us/security/blog/2022/05/27/android-apps-with-millions-of-downloads-exposed-to-high-severity-vulnerabilities/)
     - [Gatekeeper’s Achilles heel: Unearthing a macOS vulnerability](https://www.microsoft.com/en-us/security/blog/2022/12/19/gatekeepers-achilles-heel-unearthing-a-macos-vulnerability/)
     - [Microsoft finds new NETGEAR firmware vulnerabilities that could lead to identity theft and full system compromise](https://www.microsoft.com/en-us/security/blog/2021/06/30/microsoft-finds-new-netgear-firmware-vulnerabilities-that-could-lead-to-identity-theft-and-full-system-compromise/)
