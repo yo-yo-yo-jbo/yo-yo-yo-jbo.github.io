@@ -31,7 +31,7 @@ He is also a seasoned public speaker, presenting at top security conferences lik
     - [Living-Off-The-Land Command Detection Using Active Learning](https://www.microsoft.com/en-us/research/publication/living-off-the-land-command-detection-using-active-learning/)
     - [Rise in XorDdos: A deeper look at the stealthy DDoS malware targeting Linux devices](https://www.microsoft.com/en-us/security/blog/2022/05/19/rise-in-xorddos-a-deeper-look-at-the-stealthy-ddos-malware-targeting-linux-devices/)
 - 🎤 Conferences and public speaking
-    - [DEFCON 30 VR village - Free phone got me critical vulns affecting millions Android](https://www.youtube.com/watch?v=Ua_5qwcPgps)
+    - [DEFCON 30 VR village - Free phone got me critical vulns affecting millions of Android devices](https://www.youtube.com/watch?v=Ua_5qwcPgps)
     - [DEFCON 31 VR village - The curse of ncurses](https://youtu.be/uqWKWdW8xdk?si=1Pj4ZrtvBDR89Mo0)
     - [DEFCON 31 - Getting a Migraine](https://www.youtube.com/watch?v=zxZesAN-TEk)
     - [DEFCON 32 VR village - The Sand Castle - the state of macOS sandbox escapes through the lens of Microsoft Office](https://www.youtube.com/watch?v=JA746olbXq4)
@@ -48,7 +48,7 @@ He is also a seasoned public speaker, presenting at top security conferences lik
     - [AVAR 2022 - Security mechanisms on macOS and bypassing them](https://register.gotowebinar.com/register/4053212602586242061)
     - Exploitcon 2023 (Bellvue) - The curse of ncurses (not recorded)
     - Exploitcon 2022 (Bellvue) - How getting a free phone got me vulns on millions of Android devices (not recorded)
-    -  [SANS - Windows Defender ATPs Advanced Hunting: Using Flexible Queries to Hunt Across Your Endpoints](https://www.sans.org/webcasts/windows-defender-atps-advanced-hunting-flexible-queries-hunt-endpoints-108005/)
+    - [SANS - Windows Defender ATPs Advanced Hunting: Using Flexible Queries to Hunt Across Your Endpoints](https://www.sans.org/webcasts/windows-defender-atps-advanced-hunting-flexible-queries-hunt-endpoints-108005/)
     - [Security Unlocked - Discovering Router Vulnerabilities with Anomaly Detection](https://thecyberwire.com/podcasts/security-unlocked/37/transcript)
     - [On Path Podcast - My Professional Journey](https://open.spotify.com/episode/3x4SuG9wItoIyj1bXtVa2H)
 
