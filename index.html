@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jonathan Bar Or - Security Research, CVEs, Blog, and Public Speaking">
+    <title>Jonathan Bar Or</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white font-sans">
+    
+    <!-- Navbar -->
+    <nav class="bg-gray-800 p-4 flex justify-around">
+        <a href="#about" class="text-white hover:text-gray-400">About</a>
+        <a href="#publications" class="text-white hover:text-gray-400">Publications and speaking</a>
+        <a href="#writeups" class="text-white hover:text-gray-400">Writeups</a>
+        <a href="#cves" class="text-white hover:text-gray-400">CVEs, patents and projects</a>
+    </nav>
+    
+    <!-- Header with Profile Picture -->
+    <header class="text-center my-10">
+        <img src="jbo.png" alt="Jonathan Bar Or" class="w-64 h-64 rounded-full mx-auto border-4 border-gray-900">
+        <h1 class="text-4xl font-bold mt-4">Jonathan Bar Or ("JBO")</h1>
+        <p class="text-gray-400">Security Researcher | Hacker | Public Speaker</p><br>
+
+        <div class="flex flex-wrap justify-center space-x-2 text-neutral-700 rtl:space-x-reverse dark:text-neutral-300">
+            <!-- X -->
+            <a class="text-green-400 hover:text-green-300" href="https://x.com/yo_yo_yo_jbo">
+                <span class="[&>svg]:h-5 [&>svg]:w-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 512 512">
+                    <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                  </svg>
+                </span>
+            </a>
+
+            <!-- Linkedin -->
+            <a class="text-green-400 hover:text-green-300" href="https://www.linkedin.com/in/jonathan-bar-or-89876474">
+                <span class="[&>svg]:h-5 [&>svg]:w-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
+                    <path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+                  </svg>
+                </span>
+            </a>
+
+            <!-- Github -->
+            <a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo">
+                <span class="[&>svg]:h-5 [&>svg]:w-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 496 512">
+                    <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+                    </svg>
+                </span>
+            </a>
+        </div>
+    </header>
+
+    <section id="about" class="p-8">
+        <h2 class="text-2xl font-bold mb-4">About</h2>
+        <div class="overflow-auto h-36 border border-gray-700 p-4">
+            <ul class="list-disc pl-5">
+                <li><a class="text-green-400 hover:text-green-300" href="https://jonathanbaror.com">Jonathan Bar Or (“JBO”)</a> is an information security expert and a hacker, focusing on binary analysis, vulnerability research, application security, reverse engineering, and cryptography.</li>
+                <li>His research has uncovered critical vulnerabilities that have impacted millions of users worldwide, shaping security best practices across the industry.</li>
+                <li>Frequently cited by major news outlets, his work has influenced both academia and industry, driving meaningful security improvements.</li>
+                <li>He is also a seasoned public speaker, presenting at top security conferences like Black Hat and sharing deep technical insights on exploitation techniques, mitigations, and emerging threats.</li>
+        </div>
+    </section>
+
+    <!-- Publications section -->
+    <section id="publications" class="p-8">
+        <h2 class="text-2xl font-bold mb-4">Publications and speaking</h2>
+        <h3 class="text-1xl font-bold mb-4">⚔️ Offensive security publications</h3>
+        <div class="overflow-auto h-86 border border-gray-700 p-4">
+            <ul class="list-disc pl-5">
+                <li><a class="text-green-400 hover:text-green-300" href="https://www.microsoft.com/en-us/security/blog/2025/01/13/analyzing-cve-2024-44243-a-macos-system-integrity-protection-bypass-through-kernel-extensions/">Analyzing CVE-2024-44243, a macOS System Integrity Protection bypass through kernel extensions</a></li>
+    <li><a class="text-green-400 hover:text-green-300" href="https://www.microsoft.com/en-us/security/blog/2025/03/31/analyzing-open-source-bootloaders-finding-vulnerabilities-faster-with-ai/">Analyzing open-source bootloaders: Finding vulnerabilities faster with AI</a></li>
+    <li><a class="text-green-400 hover:text-green-300" href="https://www.microsoft.com/en-us/security/blog/2022/05/27/android-apps-with-millions-of-downloads-exposed-to-high-severity-vulnerabilities/">Android apps with millions of downloads exposed to high-severity vulnerabilities</a></li>
+    <li><a class="text-green-400 hover:text-green-300" href="https://www.microsoft.com/en-us/security/blog/2022/12/19/gatekeepers-achilles-heel-unearthing-a-macos-vulnerability/">Gatekeeper’s Achilles heel: Unearthing a macOS vulnerability</a></li>
+    <li><a class="text-green-400 hover:text-green-300" href="https://www.microsoft.com/en-us/security/blog/2021/06/30/microsoft-finds-new-netgear-firmware-vulnerabilities-that-could-lead-to-identity-theft-and-full-system-compromise/">Microsoft finds new NETGEAR firmware vulnerabilities that could lead to identity theft and full system compromise</a></li>
+    <li><a class="text-green-400 hover:text-green-300" href="https://www.microsoft.com/en-us/security/blog/2022/04/26/microsoft-finds-new-elevation-of-privilege-linux-vulnerability-nimbuspwn/">Microsoft finds new elevation of privilege Linux vulnerability, Nimbuspwn</a></li>
+    <li><a class="text-green-400 hover:text-green-300" href="https://www.microsoft.com/en-us/security/blog/2021/10/28/microsoft-finds-new-macos-vulnerability-shrootless-that-could-bypass-system-integrity-protection/">Microsoft finds new macOS vulnerability, Shrootless, that could bypass System Integrity Protection</a></li>
+    <li><a class="text-green-400 hover:text-green-300" href="https://www.microsoft.com/en-us/security/blog/2023/05/30/new-macos-vulnerability-migraine-could-bypass-system-integrity-protection/">New macOS vulnerability, Migraine, could bypass System Integrity Protection</a></li>
+    <li><a class="text-green-400 hover:text-green-300" href="https://www.microsoft.com/en-us/security/blog/2024/10/17/new-macos-vulnerability-hm-surf-could-lead-to-unauthorized-data-access/">New macOS vulnerability, “HM Surf”, could lead to unauthorized data access</a></li>
+    <li><a class="text-green-400 hover:text-green-300" href="https://www.microsoft.com/en-us/security/blog/2022/01/10/new-macos-vulnerability-powerdir-could-lead-to-unauthorized-user-data-access/">New macOS vulnerability, “powerdir,” could lead to unauthorized user data access</a></li>
+    <li><a class="text-green-400 hover:text-green-300" href="https://www.microsoft.com/security/blog/2022/08/19/uncovering-a-chromeos-remote-memory-corruption-vulnerability/">Uncovering a ChromeOS remote memory corruption vulnerability</a></li>
+    <li><a class="text-green-400 hover:text-green-300" href="https://www.microsoft.com/security/blog/2022/07/13/uncovering-a-macos-app-sandbox-escape-vulnerability-a-deep-dive-into-cve-2022-26706/">Uncovering a macOS App Sandbox escape vulnerability: A deep dive into CVE-2022-26706</a></li>
+    <li><a class="text-green-400 hover:text-green-300" href="https://www.microsoft.com/en-us/security/blog/2023/09/14/uncursing-the-ncurses-memory-corruption-vulnerabilities-found-in-library/">Uncursing the ncurses: Memory corruption vulnerabilities found in library</a></li>
+            </ul>
+        </div><br>
+        <h3 class="text-1xl font-bold mb-4">🛡️ Defensive security publications</h3>
+        <div class="overflow-auto h-54 border border-gray-700 p-4">
+            <ul class="list-disc pl-5">
+                <li><a class="text-green-400 hover:text-green-300" href="https://www.microsoft.com/en-us/security/blog/2020/06/11/blue-teams-helping-red-teams-a-tale-of-a-process-crash-powershell-and-the-mitre-attck-evaluation/">Blue teams helping red teams: A tale of a process crash, PowerShell, and the MITRE ATT&CK evaluation</a></li>
+                <li><a class="text-green-400 hover:text-green-300" href="https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/dynoroot-cve-2018-1111-exposed-via-advanced-hunting/ba-p/202568">DynoRoot (CVE-2018-1111) exposed via Advanced Hunting</a></li>
+                <li><a class="text-green-400 hover:text-green-300" href="https://www.microsoft.com/en-us/security/blog/2021/12/11/guidance-for-preventing-detecting-and-hunting-for-cve-2021-44228-log4j-2-exploitation/">Guidance for preventing, detecting, and hunting for exploitation of the Log4j 2 vulnerability</a></li>
+                <li><a class="text-green-400 hover:text-green-300" href="https://www.microsoft.com/en-us/security/blog/2018/04/04/hunting-down-dofoil-with-windows-defender-atp/">Hunting down Dofoil with Windows Defender ATP</a></li>
+                <li><a class="text-green-400 hover:text-green-300" href="https://www.microsoft.com/en-us/security/blog/2020/06/10/the-science-behind-microsoft-threat-protection-attack-modeling-for-finding-and-stopping-evasive-ransomware/">Inside Microsoft 365 Defender: Attack modeling for finding and stopping lateral movement</a></li>
+                <li><a class="text-green-400 hover:text-green-300" href="https://www.microsoft.com/en-us/research/publication/living-off-the-land-command-detection-using-active-learning/">Living-Off-The-Land Command Detection Using Active Learning</a></li>
+                <li><a class="text-green-400 hover:text-green-300" href="https://www.microsoft.com/en-us/security/blog/2022/05/19/rise-in-xorddos-a-deeper-look-at-the-stealthy-ddos-malware-targeting-linux-devices/">Rise in XorDdos: A deeper look at the stealthy DDoS malware targeting Linux devices</a></li>            
+            </ul>
+        </div><br>
+        <h3 class="text-1xl font-bold mb-4">🎤 Conferences and public speaking</h3>
+        <div class="overflow-auto h-64 border border-gray-700 p-4">
+             <table class="table-auto w-full border-collapse border border-gray-700 mt-4">
+                <thead>
+                    <tr class="bg-gray-800 text-green-400">
+                        <th class="border border-gray-700 px-4 py-2">Conference</th>
+                        <th class="border border-gray-700 px-4 py-2">Talk</th>
+                    </tr>
+                </thead>
+                <tbody class="text-white">
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">DEFCON 30 VR village</td>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://www.youtube.com/watch?v=Ua_5qwcPgps">Free phone got me critical vulns affecting millions of Android devices</a></td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">DEFCON 31 VR village</td>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://youtu.be/uqWKWdW8xdk?si=1Pj4ZrtvBDR89Mo0">The curse of ncruses</a></td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">DEFCON 31</td>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://www.youtube.com/watch?v=zxZesAN-TEk">Getting a Migraine</a></td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">DEFCON 32 VR village</td>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://www.youtube.com/watch?v=JA746olbXq4">The Sand Castle - the state of macOS sandbox escapes through the lens of Microsoft Office</a></td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">DEFCON VR Groups</td>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://www.youtube.com/watch?v=gvJ12U80q8g">The anatomy of UAC bypasses</a></td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">DEFCON VR Groups</td>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://youtu.be/n0n8PmKdbLo?si=0YV2auJ-jmI6Udu4">A very Dangerous Dave</a></td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">Nullcon Berlin 2023</td>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://youtu.be/dBIyjQH6E-c">The Achilles heel of the macOS Gatekeeper</a></td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">Nullcon Online</td>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://nullcon.net/webinardetail/macOS-security-features-bypasses-by-example">macOS security features bypasses by example</a></td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">Blue Hat Israel 2022</td>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://www.youtube.com/watch?v=jBvE0kciSx8">Learning macOS Security by Finding Vulns</a></td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">Blue Hat Israel 2017</td>
+                        <td class="border border-gray-700 px-4 py-2">Defending the Defenders - tampering EDR solutions</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">Th0tcon 0xC</td>
+                        <td class="border border-gray-700 px-4 py-2">The Achilles heel of the macOS Gatekeeper</td>
+                    </tr>
+                     <tr>
+                        <td class="border border-gray-700 px-4 py-2">B-sides Vancouver 2024</td>
+                        <td class="border border-gray-700 px-4 py-2">The Sand Castle - the state of macOS sandbox escapes through the lens of Microsoft Office</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">The Hack Summit 2024</td>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://thehacksummit.com/en/#agenda">The Sand Castle - the state of macOS sandbox escapes through the lens of Microsoft Office</a></td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">Hushcon Seattle 2024</td>
+                        <td class="border border-gray-700 px-4 py-2">HM Surf - Having fun with Safari and other browsers</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">AVAR 2022</td>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://register.gotowebinar.com/register/4053212602586242061">Security mechanisms on macOS and bypassing them</a></td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">Exploitcon Bellvue 2023</td>
+                        <td class="border border-gray-700 px-4 py-2">The curse of ncurses</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">Exploitcon Bellvue 2022</td>
+                        <td class="border border-gray-700 px-4 py-2">How getting a free phone got me vulns on millions of Android devices</td>
+                    </tr>
+
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">SANS</td>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://www.sans.org/webcasts/windows-defender-atps-advanced-hunting-flexible-queries-hunt-endpoints-108005/">Windows Defender ATPs Advanced Hunting: Using Flexible Queries to Hunt Across Your Endpoints</a></td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">Security Unlocked</td>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://thecyberwire.com/podcasts/security-unlocked/37/transcript">Discovering Router Vulnerabilities with Anomaly Detection</a></td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">On Path Podcast</td>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://open.spotify.com/episode/3x4SuG9wItoIyj1bXtVa2H">My personal journey</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Writeups section -->
+    <section id="writeups" class="p-8">
+        <h2 class="text-2xl font-bold mb-4">Writeups</h2>
+        <h3 class="text-1xl font-bold mb-4">🍎 Apple macOS</h3>
+        <div class="overflow-auto h-54 border border-gray-700 p-4">
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/macos_tcc/">Introduction to macOS - TCC</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/macos_app_structure/">Introduction to macOS - App structure</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/macos_gatekeeper/">Introduction to macOS - The Gatekeeper</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/macos_sandbox/">Introduction to macOS - The sandbox</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/macos_sip/">Introduction to macOS - SIP</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/macos_mach_ports/">Introduction to macOS - Mach Ports</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/macos_xprotect/">Introduction to macOS - XProtect</a></li>
+        </div><br>
+        <h3 class="text-1xl font-bold mb-4">🪟 Microsoft Windows (and some DOS)</h3>
+        <div class="overflow-auto h-74 border border-gray-700 p-4">
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/anti_debugging_intro/">Introduction to anti-debugging</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/injection_and_hooking_intro/">Introduction to Windows injection and hooking</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/msf_shellcode_analysis/">Metasploit Shellcode analysis</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/ransomware_in_a_minute/">Coding a ransomware in a minute</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/virtual_memory_known_dlls">Virtual Memory and KnownDlls</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/uac_bypasses/">UAC bypasses</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/dangerous_dave/">Reverse-engineering Dangerous Dave</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/binary_golf_com/">Binary Golf 4 - COM files</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/hotkeyz/">Hotkey-based keylogger for Windows</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/no_conditions_programming/">Keylogging without conditions or loops</a></li>
+        </div><br>
+        <h3 class="text-1xl font-bold mb-4">🐧 Linux (and some binary editing)</h3>
+        <div class="overflow-auto h-54 border border-gray-700 p-4">
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/linux_userland_rootkit/">Coding a Linux userland rootkit</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/bggp5_linux_shellcode/">Binary Golf 5 - Linux shellcoding ideas</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/bggp5_java_editing/">Binary Golf 5 - Java class format</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/linux_pwn_intro/">Introduction to Linux pwn - the beginning</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/linux_pwn_ret/">Introduction to Linux pwn - overriding the return address</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/linux_pwn_rop/">Introduction to Linux pwn - ROP chains</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/pwn_wordle/">Wordle CTF challenge</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/dictiopwn/">Dictiopwn - abusing unix_chkpwd</a></li>
+        </div><br>
+        <h3 class="text-1xl font-bold mb-4">📚 Cryptography and math</h3>
+        <div class="overflow-auto h-48 border border-gray-700 p-4">
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/crypto_terminology/">Introduction to cryptography - terminology and first examples</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/crypto_modular/">Introduction to cryptography - basic modular arithmetics</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/crypto_vigenere/">Introduction to cryptography - Vigenère cipher</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/rsa_math/">Introduction to cryptography - RSA</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/generating_random_primes/">Introduction to cryptography - prime number generation</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/prog2math/">The relation between programming and mathematical formulae</a></li>
+        </div><br>
+        <h3 class="text-1xl font-bold mb-4">👊 The Goonies CTF</h3>
+        <div class="overflow-auto h-64 border border-gray-700 p-4">
+            <li><a class="text-green-400 hover:text-green-300" href="https://thegoonies.github.io/2021/04/08/angstrom-ctf-2021-oracle-of-blair/">ångstrom CTF 2021 - Oracle of Blair</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://thegoonies.github.io/2021/04/07/angstromctf-2021-substitution/">ångstrom CTF 2021 - substitution</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://thegoonies.github.io/2021/04/07/angstromctf-2021-im_so_random/">ångstrom CTF 2021 - I'm so random</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://thegoonies.github.io/2021/03/28/umass-ctf-2021-malware/">UMass CTF 2021 - malware</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://thegoonies.github.io/2021/03/21/securinetctf-2021-mitm/">Securinets CTF Quals 2021 - MiTM</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://thegoonies.github.io/2021/02/21/unionctf-2021-human-server/">Union CTF 2021 - Human server</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://thegoonies.github.io/2021/01/31/justctf-2020-thats-not-crypto/">justCTF 2020 - That's not crypto</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://thegoonies.github.io/2021/01/29/crowstrike-ctf-2021-module-wow/">CrowdStrike CTF 2021 - Module Wow</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://thegoonies.github.io/2021/01/29/crowstrike-ctf-2021-matrix/">CrowdStrike CTF 2021 - Matrix</a></li>
+        </div><br>
+        <h3 class="text-1xl font-bold mb-4">🎭 Other publications</h3>
+        <div class="overflow-auto h-30 border border-gray-700 p-4">
+            <li><a class="text-green-400 hover:text-green-300" href="https://pagedout.institute/download/PagedOut_005.pdf">PagedOut! #5 - The art of Java class minimization</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://www.digitalwhisper.co.il/issue152">DigitalWhisper #152 - A very Dangerous Dave (Hebrew)</a></li>
+            <li><a class="text-green-400 hover:text-green-300" href="https://www.digitalwhisper.co.il/issue154">DigitalWhisper #154 - Getting a Migraine (Hebrew)</a></li>
+        </div>
+    </section>
+
+    <!-- CVEs section -->
+    <section id="cves" class="p-8">
+        <h2 class="text-2xl font-bold mb-4">CVEs, patents and projects</h2>
+        <h3 class="text-1xl font-bold mb-4">🎉 CVEs</h3>
+        <div class="overflow-auto h-64 border border-gray-700 p-4">
+            <table class="table-auto w-full border-collapse border border-gray-700 mt-4">
+                <thead>
+                    <tr class="bg-gray-800 text-green-400">
+                        <th class="border border-gray-700 px-4 py-2">CVE ID</th>
+                        <th class="border border-gray-700 px-4 py-2">Platform(s)</th>
+                        <th class="border border-gray-700 px-4 py-2">Description</th>
+                    </tr>
+                </thead>
+                <tbody class="text-white">
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-31191">CVE-2025-31191</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Apple (macOS, iOS)</td>
+                        <td class="border border-gray-700 px-4 py-2">Sandbox escape using keychain item redefinitions</td>
+                    </tr>
+                     <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-26721">CVE-2025-26721</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Barebox (bootloader)</td>
+                        <td class="border border-gray-700 px-4 py-2">Buffer overflow during file creation in the persistent storage<td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-26722">CVE-2025-26722</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Barebox (bootloader)</td>
+                        <td class="border border-gray-700 px-4 py-2">Buffer overflow during symbolic link handling due to an integer overflow in the SquashFS filesystem</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-26723">CVE-2025-26723</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Barebox (bootloader)</td>
+                        <td class="border border-gray-700 px-4 py-2">Buffer overflow during symbolic link handling due to an integer overflow in the EXT4 filesystem</td>
+                    </tr>
+                     <tr>
+                         <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-26724">CVE-2025-26724</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Barebox (bootloader)</td>
+                        <td class="border border-gray-700 px-4 py-2">Buffer overflow during symbolic link handling due to an integer overflow in the CramFS filesystem</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-26725">CVE-2025-26725</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Barebox (bootloader)</td>
+                        <td class="border border-gray-700 px-4 py-2">Buffer overflow during directory entry parsing in the JFFS2 filesystem</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-26726">CVE-2025-26726</a></td>
+                        <td class="border border-gray-700 px-4 py-2">U-boot (bootloader)</td>
+                        <td class="border border-gray-700 px-4 py-2">Buffer overflow during directory table parsing in the SquashFS filesystem</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-26727">CVE-2025-26727</a></td>
+                        <td class="border border-gray-700 px-4 py-2">U-boot (bootloader)</td>
+                        <td class="border border-gray-700 px-4 py-2">Buffer overflow during inode parsing in the SquashFS filesystem</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-26728">CVE-2025-26728</a></td>
+                        <td class="border border-gray-700 px-4 py-2">U-boot (bootloader)</td>
+                        <td class="border border-gray-700 px-4 py-2">Buffer overflow during file reading in the SquashFS filesystem</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-26729">CVE-2025-26729</a></td>
+                        <td class="border border-gray-700 px-4 py-2">U-boot (bootloader)</td>
+                        <td class="border border-gray-700 px-4 py-2">Buffer overflow during symbolic link handling due to an integer overflow in the EroFS filesystem</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-0677">CVE-2025-0677</a></td>
+                        <td class="border border-gray-700 px-4 py-2">GRUB2 (bootloader)</td>
+                        <td class="border border-gray-700 px-4 py-2">Buffer overflow during symbolic link handling due to an integer overflow in the UFS filesystem</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-0678">CVE-2025-0678</a></td>
+                        <td class="border border-gray-700 px-4 py-2">GRUB2 (bootloader)</td>
+                        <td class="border border-gray-700 px-4 py-2">Buffer overflow during file reads due to an integer overflow in the SquashFS filesystem</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-0684">CVE-2025-0684</a></td>
+                        <td class="border border-gray-700 px-4 py-2">GRUB2 (bootloader)</td>
+                        <td class="border border-gray-700 px-4 py-2">Buffer overflow during symbolic link handling due to an integer overflow in the ReiserFS filesystem</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-0685">CVE-2025-0685</a></td>
+                        <td class="border border-gray-700 px-4 py-2">GRUB2 (bootloader)</td>
+                        <td class="border border-gray-700 px-4 py-2">Buffer overflow during symbolic link handling due to an integer overflow in the JFS filesystem</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-0686">CVE-2025-0686</a></td>
+                        <td class="border border-gray-700 px-4 py-2">GRUB2 (bootloader)</td>
+                        <td class="border border-gray-700 px-4 py-2">Buffer overflow during symbolic link handling due to an integer overflow in the RomFS filesystem</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-0689">CVE-2025-0689</a></td>
+                        <td class="border border-gray-700 px-4 py-2">GRUB2 (bootloader)</td>
+                        <td class="border border-gray-700 px-4 py-2">Buffer overflow during block reads due to an out-of-bounds operation in the UDF filesystem</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-0690">CVE-2025-0690</a></td>
+                        <td class="border border-gray-700 px-4 py-2">GRUB2 (bootloader)</td>
+                        <td class="border border-gray-700 px-4 py-2">Buffer overflow due to an unsafe signed integer overflow in the read builtin command</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-0118">CVE-2025-0118</a></td>
+                        <td class="border border-gray-700 px-4 py-2">GRUB2 (bootloader)</td>
+                        <td class="border border-gray-700 px-4 py-2">Arbitrary memory read due to a misconfiguration of the dump command in Secure Boot environments</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-1125">CVE-2025-1125</a></td>
+                        <td class="border border-gray-700 px-4 py-2">GRUB2 (bootloader)</td>
+                        <td class="border border-gray-700 px-4 py-2">Buffer overflow during file opens due to an integer overflow in the HFS filesystem</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56738">CVE-2024-56738</a></td>
+                        <td class="border border-gray-700 px-4 py-2">GRUB2 (bootloader)</td>
+                        <td class="border border-gray-700 px-4 py-2">Cryptographic side channel attack</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56737">CVE-2024-56737</a></td>
+                        <td class="border border-gray-700 px-4 py-2">GRUB2 (bootloader)</td>
+                        <td class="border border-gray-700 px-4 py-2">Buffer overflow in filesystem mounting due to wild strcpy in the HFS filesystem</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-44243">CVE-2024-44243</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Apple (macOS, iOS)</td>
+                        <td class="border border-gray-700 px-4 py-2">storagekitd-based SIP bypass</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-44133">CVE-2024-44133</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Apple (macOS, iOS)</td>
+                        <td class="border border-gray-700 px-4 py-2">Browser-based TCC bypass</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32369">CVE-2023-32369</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Apple (macOS, iOS)</td>
+                        <td class="border border-gray-700 px-4 py-2">migrationd-based SIP bypass</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29491">CVE-2023-29491</a></td>
+                        <td class="border border-gray-700 px-4 py-2">ncurses (library)</td>
+                        <td class="border border-gray-700 px-4 py-2">Multiple memory corruption vulnerabilities in the ncurses library</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4499">CVE-2022-4499</a></td>
+                        <td class="border border-gray-700 px-4 py-2">TP-Link routers</td>
+                        <td class="border border-gray-700 px-4 py-2">Cryptographic side-channel attack in httpd authentication method</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4498">CVE-2022-4498</a></td>
+                        <td class="border border-gray-700 px-4 py-2">TP-Link routers</td>
+                        <td class="border border-gray-700 px-4 py-2">Buffer overflow in httpd</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-42821">CVE-2022-42821</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Apple (macOS, iOS)</td>
+                        <td class="border border-gray-700 px-4 py-2">AppleDouble-based Gatekeeper bypass</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29800">CVE-2022-29800</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Linux</td>
+                        <td class="border border-gray-700 px-4 py-2">networkd-dispatcher race condition (TOCTOU)</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29799">CVE-2022-29799</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Linux</td>
+                        <td class="border border-gray-700 px-4 py-2">networkd-dispatcher directory traversal</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-26706">CVE-2022-26706</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Apple (macOS, iOS)</td>
+                        <td class="border border-gray-700 px-4 py-2">launchd stdin-based sandbox escape</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2587">CVE-2022-2587</a></td>
+                        <td class="border border-gray-700 px-4 py-2">ChromeOS</td>
+                        <td class="border border-gray-700 px-4 py-2">d-bus-based remote memory corruption vulnerability</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0987">CVE-2022-0987</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Linux</td>
+                        <td class="border border-gray-700 px-4 py-2">Packagekit information disclosure disclosure vulnerability</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42601">CVE-2021-42601</a></td>
+                        <td class="border border-gray-700 px-4 py-2">mce (Android SDK)</td>
+                        <td class="border border-gray-700 px-4 py-2">mce SDK vulnerability</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42600">CVE-2021-42600</a></td>
+                        <td class="border border-gray-700 px-4 py-2">mce (Android SDK)</td>
+                        <td class="border border-gray-700 px-4 py-2">mce SDK vulnerability</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42599">CVE-2021-42599</a></td>
+                        <td class="border border-gray-700 px-4 py-2">mce (Android SDK)</td>
+                        <td class="border border-gray-700 px-4 py-2">mce SDK vulnerability</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42598">CVE-2021-42598</a></td>
+                        <td class="border border-gray-700 px-4 py-2">mce (Android SDK)</td>
+                        <td class="border border-gray-700 px-4 py-2">mce SDK vulnerability</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-35247">CVE-2021-35247</a></td>
+                        <td class="border border-gray-700 px-4 py-2">SolarWinds Serv-U (Windows)</td>
+                        <td class="border border-gray-700 px-4 py-2">SolarWinds Serv-U LDAP injection vulnerability</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30970">CVE-2021-30970</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Apple (macOS, iOS)</td>
+                        <td class="border border-gray-700 px-4 py-2">Injection-based TCC bypass</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30892">CVE-2021-30892</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Apple (macOS, iOS)</td>
+                        <td class="border border-gray-700 px-4 py-2">system_installd-based SIP bypass</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35785">CVE-2020-35785</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Netgear routers</td>
+                        <td class="border border-gray-700 px-4 py-2">NETGEAR DGN2200v1 authentication bypass</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0095">CVE-2017-0095</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Hyper-V (Microsoft)</td>
+                        <td class="border border-gray-700 px-4 py-2">Hyper-V vSMB remote code execution</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div><br>
+        <h3 class="text-1xl font-bold mb-4">💡 Patents</h3>
+        <div class="overflow-auto h-86 border border-gray-700 p-4">
+            <table class="table-auto w-full border-collapse border border-gray-700 mt-4">
+                <thead>
+                    <tr class="bg-gray-800 text-green-400">
+                        <th class="border border-gray-700 px-4 py-2">Patent ID</th>
+                        <th class="border border-gray-700 px-4 py-2">Description</th>
+                    </tr>
+                </thead>
+                <tbody class="text-white">
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">Patent 408978-US-NP</td>
+                        <td class="border border-gray-700 px-4 py-2">Dysfunctional device detection tool</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">Patent 410415-US-NP</td>
+                        <td class="border border-gray-700 px-4 py-2">Command classification using active learning</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2">Patent 412482-US-NP</td>
+                        <td class="border border-gray-700 px-4 py-2">Detecting a spoofed entity based on complexity of a distribution of events initiated by the spoofed entity</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div><br>
+        <h3 class="text-1xl font-bold mb-4">🚧 Other projects</h3>
+        <div class="overflow-auto h-86 border border-gray-700 p-4">
+            <table class="table-auto w-full border-collapse border border-gray-700 mt-4">
+                <thead>
+                    <tr class="bg-gray-800 text-green-400">
+                        <th class="border border-gray-700 px-4 py-2">Project</th>
+                        <th class="border border-gray-700 px-4 py-2">Description</th>
+                    </tr>
+                </thead>
+                <tbody class="text-white">
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/cicada_tools">Cicada Tools</a></td>
+                        <td class="border border-gray-700 px-4 py-2">A Cicada 3301 research utility</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/hotkeyz">Hotkeyz</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Windows based keylogging capability using hotkeys</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/hm-surf">HM-surf evaluator</a></td>
+                        <td class="border border-gray-700 px-4 py-2">An evaluator for CVE-2024-44133 for all common macOS browsers</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/bggp5_java_editing">Miniclass-exec</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Minimization of Java bytecode to execute a certain commandlin</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/dangerous_dave">Dangerous Dave level editor</a></td>
+                        <td class="border border-gray-700 px-4 py-2">A level editor for the 1990 Dangerous Dave DOS game</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/prog2math">Prog2Math</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Translates programming concepts to LaTeX formulae</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-700 px-4 py-2"><a class="text-green-400 hover:text-green-300" href="https://github.com/yo-yo-yo-jbo/dictiopwn">Dictiopwn</a></td>
+                        <td class="border border-gray-700 px-4 py-2">Local dictionary attack on Linux</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div> 
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center p-4 bg-gray-800 mt-10">
+        <p>&copy; 2025 Jonathan Bar Or. All Rights Reserved.</p>
+    </footer>
+    
+</body>
+</html>
+
